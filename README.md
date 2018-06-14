@@ -4,6 +4,15 @@
 
 Copy configuration.prod.json to configuration.json. Edit the configuration.json with your client_id and client_secret. The production oauth server is `https://nuws.nu.ac.th/oauth`.
 
+Install the dependencies: `npm install`
+
+Run the app: `node server.js`
+
+Point your browser at http://localhost:50451
+
+
+## Local development of NU web services
+
 If you are using a local development server then you can change the server and can generate your own client id and secret using the php artisan command:
 
 ```
