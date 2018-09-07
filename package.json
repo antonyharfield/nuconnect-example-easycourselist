@@ -1,4 +1,11 @@
 {
+  "name": "nuws-easycourselist",
+  "author": "Antony Harfield",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/antonyharfield/nuws-easycourselist.git"
+  },
+  "license": "MIT",
   "dependencies": {
     "express": "^4.16.3",
     "mustache-express": "^1.2.6",
