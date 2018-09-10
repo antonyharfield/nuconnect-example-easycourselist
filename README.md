@@ -1,4 +1,6 @@
-# NUWS - Example of performing oauth authentication from a website
+# NU Connect Example - Easy Course List
+
+Example website using NU Connect to access course enrollments for teachers at Naresuan University
 
 ## Getting started
 
@@ -6,28 +8,6 @@ Copy configuration.prod.json to configuration.json. Edit the configuration.json 
 
 Install the dependencies: `npm install`
 
-Run the app: `node server.js`
+Run the app: `npm start`
 
 Point your browser at http://localhost:50451
-
-
-## Local development of NU web services
-
-If you are using a local development server then you can change the server and can generate your own client id and secret using the php artisan command:
-
-```
-php artisan passport:client
-
- Which user ID should the client be assigned to?:
- > 1
-
- What should we name the client?:
- > Oauth Demo
-
- Where should we redirect the request after authorization? [http://localhost/auth/callback]:
- > http://localhost:50451/login/nu/callback
-
-New client created successfully.
-Client ID: 3
-Client secret: XYZ1234567890ABCDEFGHIJKLM
-```
