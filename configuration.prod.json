@@ -1,5 +1,10 @@
 {
     "oauthServer": "https://nuws.nu.ac.th/oauth",
     "clientId": "YOUR_CLIENT_ID",
-    "clientSecret": "YOUR_CLIENT_SECRET"
+    "clientSecret": "YOUR_CLIENT_SECRET",
+
+    "oauthCallback": "http://localhost:50451/login/callback",
+    "oauthScopes": "identity profile subjects enrollments",
+
+    "apiServer": "https://nuws.nu.ac.th/api"
 }

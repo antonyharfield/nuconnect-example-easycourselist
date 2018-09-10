@@ -8,7 +8,15 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.3",
+    "express-session": "*",
     "mustache-express": "^1.2.6",
     "node-fetch": "^2.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "start-prod": "node server.js"
   }
 }
